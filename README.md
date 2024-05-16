@@ -27,5 +27,8 @@ flet pack -n scrcpyGUI main.py
 このソフトウェアは[scrcpy](https://github.com/Genymobile/scrcpy)がないと成り立ちません!!ありがとうございます!!  
 
 ## contact
-開発者に連絡を取りたい場合は下記メールアドレスまたはXのDMまで。  
-[メール](mail:info@samenoko.xyz) [X](https://twitter.com/samenoko-112)
+開発者に連絡を取りたい場合は下記メールアドレスまたはXのDMまで。
+
+info@samenoko.xyz
+
+[X](https://twitter.com/samenoko-112)
