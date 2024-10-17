@@ -88,7 +88,7 @@ def main(page:Page):
             try:
                 run_button.icon = icons.STOP
                 run_button.update()
-                with subprocess.Popen(command, stdout=subprocess.PIPE, stderr=subprocess.PIPE,creationflags=subprocess.CREATE_NO_WINDOW) as process:
+                with subprocess.Popen(command, stdout=subprocess.PIPE, stderr=subprocess.PIPE) as process:
                     current_process = process
                     process_running = True
                     for line in process.stdout:
