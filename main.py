@@ -6,8 +6,8 @@ process_running = False
 
 def main(page:Page):
     page.title = "Scrcpy GUI"
-    page.window_height = 800
-    page.window_width = 500
+    page.window.height = 800
+    page.window.width = 500
     page.padding = 20
 
     def check_audio_and_video(e):
